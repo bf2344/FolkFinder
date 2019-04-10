@@ -1,52 +1,52 @@
 var friendsArray = [
     {
         name: "Harambe",// "./images/  " for images instead of https.
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Jennifer+Aniston&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlACsywrizK0xLKTrfRLyoAovqAoP70oMdcqObG45BGjL7fAyx_3hKVcJq05eY3RjguHQiEVLjbXvJLMkkohKS4eKbgVGgxSXFxwHs8iVp60oszUvJRiBZAuAMWTvYmNAAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYILDA4",
+        photo: "https://www.gannett-cdn.com/-mm-/62035649379a678fb24f5dbe5a4b66cba0a995c9/c=179-0-2659-3307/local/-/media/2016/05/29/Cincinnati/Cincinnati/636001135964333349-Harambe2.jpg?width=534&height=712&fit=crop",
         scores: [5, 1, 3, 4, 5, 3, 5, 2, 5, 1]
     },
     {
         name: "Jupiter Lighthouse",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Matthew+Perry&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEMMyqKTbTEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4A_ByaB44AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYILzA5",
+        photo: "https://cmgpbpquickpulse.files.wordpress.com/2016/10/091816-jup-j-michael-carlisle-lighthouse.jpg?w=640&h=994",
         scores: [4, 1, 2, 4, 5, 1, 5, 2, 4, 1]
     },
     {
         name: "Black Mamba",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Courteney+Cox&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEMi4os07TEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4AieMQ0I4AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIMjA6",
+        photo: "https://ids.uni.edu/firstorderkicks/files/2016/03/Kobe-5-rings-945x629.jpg",
         scores: [1, 1, 4, 3, 4, 2, 5, 4, 2, 3]
     },
     {
         name: "The Goat",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Matt+LeBlanc&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEMi4pSTLTEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4AYxF23Y4AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYINTA7",
+        photo: "https://i.ebayimg.com/images/g/9KIAAOSwq5dcW6xy/s-l300.jpg",
         scores: [2, 5, 2, 4, 3, 3, 4, 2, 3, 5]
     },
     {
         name: "Mike Tyson",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Lisa+Kudrow&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEMzUqSzLXEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4AZOB9Ao4AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIODA8",
+        photo: "https://i.ebayimg.com/images/i/122503520630-0-1/s-l1000.jpg",
         scores: [2, 1, 3, 4, 4, 3, 4, 5, 5, 1]
     },
     {
         name: "Donald Trump",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=David+Schwimmer&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEMzUqSirTEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4A0anDTY4AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIOzA9",
+        photo: "https://i.guim.co.uk/img/media/d01a4195d20b3186acf261c74c5116681d248c6c/0_267_3500_2100/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=71d1a425d1fcb7db8fe9dfe2848a565e",
         scores: [1, 1, 1, 2, 3, 2, 3, 1, 5, 2]
     },
     {
         name: "Rosanne",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Paul+Rudd&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLOMyi0ytMSyk630S8qAKL6gKD-9KDHXKjmxuOQRoy-3wMsf94SlXCatOXmN0Y4Lh0IhFS4217ySzJJKISkuHim4HRoMUlxccB7PIlaetKLM1LyUYgWQLgCb3RgyjgAAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIQTA_",
+        photo: "https://www.thewrap.com/wp-content/uploads/2018/05/rose-1.jpg",
         scores: [4, 3, 3, 2, 3, 4, 5, 5, 5, 5]
     },
     {
         name: "Thor Jones",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Maggie+Wheeler&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLNyikzytMSyk630S8qAKL6gKD-9KDHXKjmxuOQRoy-3wMsf94SlXCatOXmN0Y4Lh0IhFS4217ySzJJKISkuHim4HRoMUlxccB7PIlaetKLM1LyUYgWQLgCrEp6cjgAAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIdDBQ",
+        photo: "https://media.npr.org/assets/img/2017/10/27/tra2016_comp_v005_008088.1111_wide-bc335cede10d086ba948db2d66f0093d36f0cc1e-s800-c85.jpg",
         scores: [5, 4, 5, 2, 3, 2, 5, 1, 3, 1]
     },
     {
         name: "Turkey Leg",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=James+Michael+Tyler&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLPKK0zStcSyk630S8qAKL6gKD-9KDHXKjmxuOQRoy-3wMsf94SlXCatOXmN0Y4Lh0IhFS4217ySzJJKISkuHim4HRoMUlxccB7PIlaetKLM1LyUYgWQLgDLn-3MjgAAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIejBS",
+        photo: "https://thewoksoflife.com/wp-content/uploads/2015/07/smoked-turkey-legs-11.jpg",
         scores: [1, 5, 1, 2, 1, 1, 2, 5, 5, 1]
     },
     {
         name: "The WOAT",
-        photo: "https://www.google.com/search?sa=X&biw=1431&bih=680&q=Larry+Hankin&stick=H4sIAAAAAAAAAONgFuLQz9U3MDZIrlDiBLEyDOLNcrXEspOt9EvKgCi-oCg_vSgx1yo5sbjkEaMvt8DLH_eEpVwmrTl5jdGOC4dCIRUuNte8ksySSiEpLh4puB0aDFJcXHAezyJWnrSizNS8lGIFkC4Ak0uPT44AAAA&ved=0ahUKEwi0t_jJyLfhAhVF0oMKHRKYCxkQ-BYIpAEwYA",
+        photo: "https://i.ytimg.com/vi/UV79c5Ubn7s/hqdefault.jpg",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
 
