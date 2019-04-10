@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <center>Friend Finder Survey</center>
+        </h1>
+        <hr>
+
+        <form>
+            <div class="form-group">
+              <label for="name">Your Name Here</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="photo">Your Photo Here</label>
+              <input type="text" class="form-control" id="photo" placeholder="image">
+            </div>
+          </form>
+
+        <h2>
+            <center>Answer each question on a scale of 1-5.<br>
+                1 being strongly disagree, 5 being strongly agree.<br>
+                We will help you find friends!</center>
+        </h2>
+        <hr>
+        <h4>1. How much wood could a woodchuck chuck if a woodchuck could chuck wood?</h4>
+        <select data placeholder="" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>2. Earls has good food</h4>
+        <select data placeholder="" class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+        </select>
+        <h4>3. why do you smell like booze?.</h4>
+
+        <select data placeholder="" class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>4. You only eat turkey on thanksgiving?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>5. Fire is wet?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>6. Cognac Albert Robin?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>7. are you wearing bowling shoes?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>8. grass green?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>9. you iz smart?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+
+        <h4>10. You like to ride unicycles?</h4>
+
+        <select data placeholder="" class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+        </select>
+        <hr>
+        <!-- Button trigger modal -->
+        <button type="button" id="submitbutton" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Find Your Friend </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" >Your Best Friend Match</h5>
+                        <span aria-hidden="true" id="friendname"></span>
+                    </div>
+                    <div class="modal-body">
+                        <img src = "" id="friendImage">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type=text/javascript> 
+        // $('#submitbutton').on('shown.bs.modal', function () { $('#myInput').trigger('focus') })
+        $("#submitbutton").on("click", function (event) {
+            event.preventDefault();
+            var userScore = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                score: [
+                    $("#q1").val().trim(),
+                    $("#q2").val().trim(),
+                    $("#q3").val().trim(),
+                    $("#q4").val().trim(),
+                    $("#q5").val().trim(),
+                    $("#q6").val().trim(),
+                    $("#q7").val().trim(),
+                    $("#q8").val().trim(),
+                    $("#q9").val().trim(),
+                    $("#q10").val().trim(),
+                ]
+            }
+            console.log("check name, photo, score", userScore);
+            $.ajax({
+                method: "POST",
+                url: "/api/friends",
+                data: JSON.stringify(userScore),
+                contentType: "application/json",
+                success: function (response) {
+                    $("#friendname").text(response.name);
+                    $("#friendImage").attr("src", response.photo);
+                }
+            })
+
+        })
+            </script> 
+            </body> 
+            </html>
